@@ -126,25 +126,28 @@
 							<a class="nav-link active" href="dashboard.php"><img src="images/house.svg"> Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="users.php"><img src="images/users-group.svg"> Users</a>
+                            <a class="nav-link" href="users.php"><img src="images/users-group.svg"> User Management </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="patient.php"><img src="images/inpatient.svg"> Patient</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/employee-group-solid.svg"> Employee</a>
+                            <a class="nav-link" href="clearance.php"><img src="images/employee-group-solid.svg"> Student and Employee Clearance Management </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/medication.svg"> Medications</a>
+                            <a class="nav-link" href="records.php"><img src="images/medication.svg"> Medical Records </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/prescription.svg"> Prescriptions</a>
+                            <a class="nav-link" href="services.php"><img src="images/prescription.svg"> Treatment Services </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/inventory.svg"> Inventory</a>
+                            <a class="nav-link" href="admin.php"><img src="images/inventory.svg"> System Administration </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/dispensing.svg"> Dispensing</a>
+                            <a class="nav-link" href="reporting.php"><img src="images/dispensing.svg"> Reporting and Analytics </a>
+                        </li>
+			<li class="nav-item">
+                            <a class="nav-link" href="notifs"><img src="images/dispensing.svg"> Notification and Alerts </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="logout.php"><img src="images/logout.svg"> Logout</a>
