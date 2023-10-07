@@ -167,10 +167,10 @@
                         
                         if(mysqli_num_rows($result) > 0) {
                             echo "<table class='table table-striped'>";
-                            echo "<thead><tr><th>Patient ID</th><th>Patient Name</th><th>Patient Address</th><th>Patient Contact</th><th>Actions</th></tr></thead>";
+                            echo "<thead><tr><th>Patient ID</th><th>Patient Name</th><th>Patient Address</th><th>Patient Contact</th><th>Patient Contact</th><th>Actions</th></tr></thead>";
                             echo "<tbody>";
                             while ($row = mysqli_fetch_array($result)) {
-                                echo "<tr><td>".$row['patient_id']."</td><td>".$row['patient_name']."</td><td>".$row['patient_address']."</td><td>".$row['patient_contact']."<td><a href='edit_patient.php?id=".$row['patient_id']."'><i class='edit-button fas fa-edit'></i></a> | <a href='delete_function.php?id=".$row['patient_id']."'><i class='delete-button fas fa-trash'></i></a></td></tr>";
+                                echo "<tr><td>".$row['patient_id']."</td><td>".$row['patient_name']."</td><td>".$row['patient_address']."</td><td>".$row['patient_contact']."</td><td>".$row['patient_symptom']."<td><a href='edit_patient.php?id=".$row['patient_id']."'><i class='edit-button fas fa-edit'></i></a> | <a href='delete_function.php?id=".$row['patient_id']."'><i class='delete-button fas fa-trash'></i></a></td></tr>";
                             }
                             
                             echo "</tbody>";
