@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Add User</title>
+	<title>Add Patient</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/f889e2aa12.js" crossorigin="anonymous"></script>
 </head>
@@ -95,6 +95,15 @@ button[type=submit]:hover {
             <div class="form-group">
                 <label>Patient Contact:</label>
                 <input type="text" name="patient_contact" class="form-control" required>
+            </div>
+	    <div class="form-group">
+                  <label for="patient_symptom">Patient Symptom:</label>
+                  <select class="form-control" name="patient_symptom" id="patient_symptom" required>
+                    <option value="Cough and colds">Pharmacist</option>
+                    <option value="Dry cough">Admin</option>
+	            <option value="Teary eyes">Admin</option>
+		    <option value="High fever">Admin</option>
+                  </select>
             </div>
             <button type="submit" name="submit" class="btn btn-primary"><img src="images/add-circle.svg"> Submit</button>
             <a href="patient.php" class="btn btn-secondary"><img src="images/cross.svg"> Cancel</a>
