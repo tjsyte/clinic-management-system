@@ -106,9 +106,6 @@ $dispensingData = mysqli_fetch_assoc($dispensingCount);
                     <hr class="line">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="users.php"><img src="images/users-group.svg"> User Management </a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="patient.php"><img src="images/inpatient.svg"> Patient</a>
                         </li>
                         <li class="nav-item">
@@ -121,12 +118,6 @@ $dispensingData = mysqli_fetch_assoc($dispensingCount);
                             <a class="nav-link" href="services.php"><img src="images/prescription.svg"> Treatment Services </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="admin.php"><img src="images/inventory.svg"> System Administration </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="reporting.php"><img src="images/dispensing.svg"> Reporting and Analytics </a>
-                        </li>
-			            <li class="nav-item">
                             <a class="nav-link" href="notifs"><img src="images/dispensing.svg"> Notification and Alerts </a>
                         </li>
                         <li class="nav-item">
@@ -137,14 +128,6 @@ $dispensingData = mysqli_fetch_assoc($dispensingCount);
 
                 <div class="col-md-10 offset-md-2">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title"><img src="images/users-group.svg"> Total Users</h5>
-                                    <p class="card-text"><?php echo $userData['total']; ?></p>
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-md-4">
                             <div class="card">
                                 <div class="card-body">
