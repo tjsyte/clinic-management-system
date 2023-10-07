@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Add User</title>
+	<title>Add Patient</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/f889e2aa12.js" crossorigin="anonymous"></script>
 </head>
